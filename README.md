@@ -2,7 +2,7 @@
 
 AlmaBetter Capstone Project - Unsupervised: Netflix Movies And Tv Shows Clustering.
 
-Project Status: Completed (100/100)
+Project Status: Completed 
 
 Netflix Inc. is an American media company based in Los Gatos, California. Founded in 1997 by Reed Hastings and Marc Randolph in Scotts Valley, California, it operates the over-the-top subscription video on-demand service Netflix brand, which includes original films and television series commissioned or acquired by the company, and third-party content licensed from other distributors. (Wikipedia)
 
@@ -12,13 +12,14 @@ This dataset consists of tv shows and movies available on Netflix. The dataset i
 
 Generally, movie recommendation systems cluster the users in a finite number of similar groups based on their previous activities and profile. Then, at a fundamental level, people in the same cluster are made similar recommendations. Netflix developed a new machine learning algorithm based on reinforcement learning to create an optimal list of recommendations considering a finite time budget for the user. Here are 7 examples of clustering algorithms in action.
 
-Identifying Fake News. Fake news is not a new phenomenon, but it is one that is becoming prolific.
-Spam filter.
-Marketing and Sales.
-Classifying network traffic.
-Identifying fraudulent or criminal activity.
-Document analysis.
-Fantasy Football and Sports.
+- Identifying Fake News. Fake news is not a new phenomenon, but it is one that is becoming prolific.
+- Spam filter.
+- Marketing and Sales.
+- Classifying network traffic.
+- Identifying fraudulent or criminal activity.
+- Document analysis.
+- Fantasy Football and Sports.
+  
 Project Summary :
 
 Problem Statement :
@@ -65,29 +66,30 @@ description: The Summary description
 
 Project Work flow:
 
-Importing Libraries,
-Loading the dataset,
-Data Summary,
-Data Cleaning & Data Analysis,
-Feature selection,
-Implementing different clustering methods,
+- Importing Libraries,
+- Loading the dataset,
+- Data Summary,
+- Data Cleaning & Data Analysis,
+- Feature selection,
+- Implementing different clustering methods,
 Conclusion,
 Future Work.
 ![image](https://github.com/pulkit1311/Alma-Better-ML-Project/assets/154788300/6e7fbb73-3621-483b-979d-16fcb72a6347)
 
 Conclusion:
 
-Director and cast contains a large number of null values so we will drop these 2 columns .
-In this data-set there are two types of contents where 30.86% includes TV shows and the remaining 69.14% carries Movies.
-We have reached a conclusion from our analysis from the content added over years that Netflix is focusing movies and TV shows (From 2016 data we get to know that Movies is increased by 80% and TV shows is increased by 73% compare)
-From the data-set insights we can conclude that the most number of TV Shows released in 2017 and for Movies it is 2020
-On Netflix USA has the largest number of contents. And most of the countries preferred to produce movies more than TV shows.
-Most of the movies are belonging to 3 categories
-TOP 3 content categories are International movies , dramas , comedies.
-In text analysis (NLP) I used stop words, removed punctuation's , stemming & TF-IDF vectorizer and other functions of NLP.
-Applied different clustering models like K-means, hierarchical, Agglomerative clustering, DBSCAN on data we got the best cluster arrangements.
-By applying different clustering algorithms to our data-set .we get the optimal number of cluster is equal to 3
-From this clustering analysis we can create Netflix movies and tv shows recommendation systems & also we can use topic modelling.
+- Director and cast contains a large number of null values so we will drop these 2 columns .
+- In this data-set there are two types of contents where 30.86% includes TV shows and the remaining 69.14% carries Movies.
+- We have reached a conclusion from our analysis from the content added over years that Netflix is focusing movies and TV shows (From 2016 data we get to know that Movies is increased by 80% and TV shows 
+ is increased by 73% compare)
+- From the data-set insights we can conclude that the most number of TV Shows released in 2017 and for Movies it is 2020
+- On Netflix USA has the largest number of contents. And most of the countries preferred to produce movies more than TV shows.
+- Most of the movies are belonging to 3 categories
+- TOP 3 content categories are International movies , dramas , comedies.
+- In text analysis (NLP) I used stop words, removed punctuation's , stemming & TF-IDF vectorizer and other functions of NLP.
+- Applied different clustering models like K-means, hierarchical, Agglomerative clustering, DBSCAN on data we got the best cluster arrangements.
+- By applying different clustering algorithms to our data-set .we get the optimal number of cluster is equal to 3
+- From this clustering analysis we can create Netflix movies and tv shows recommendation systems & also we can use topic modelling.
 References:
 
 Wikipedia.
