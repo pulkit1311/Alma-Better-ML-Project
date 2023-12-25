@@ -73,7 +73,7 @@ Feature selection,
 Implementing different clustering methods,
 Conclusion,
 Future Work.
-image
+![image](https://github.com/pulkit1311/Alma-Better-ML-Project/assets/154788300/6e7fbb73-3621-483b-979d-16fcb72a6347)
 
 Conclusion:
 
